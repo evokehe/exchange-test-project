@@ -1,0 +1,42 @@
+.main{
+  text-align: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: white;
+  border-radius: 20px
+}
+.success_section > div{
+  padding: 50px 0;
+}
+.home{
+  background-color: #545454;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-family: GilroyBold;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.home:hover{
+  background-color: #f3f4f5;
+  color: #545454;
+}
+.margin1 {
+  margin:20px;
+}
+body{
+  height: 100vh;
+}
+
+#transaction{
+  font-family: 'GilroyBold';
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+color: #545454;
+
+margin: 10px 0;
+}

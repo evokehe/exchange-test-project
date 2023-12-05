@@ -1,0 +1,32 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0b0b0b;
+}
+.center{
+    width: 300px;
+    margin: 10% auto;
+}
+
+input,button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    background-color: greenyellow;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1.1s;
+}
+
+button:hover{
+    background-color: green;
+}

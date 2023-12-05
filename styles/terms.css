@@ -1,0 +1,87 @@
+
+
+.terms_title img {
+  width: 70px;
+}
+.terms_title{
+  display: flex;
+  padding: 0 50px ;
+}
+.lng-terms-title,.lng-aml-title,.lng-about-title{
+  font-family: 'GilroyBold';
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+}
+.terms_title > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.terms_section > div{
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+
+.terms_body{
+  padding: 50px;
+}
+
+.terms_body p,.terms_body li{
+  font-family: 'GilroyMedium';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color:gray;
+}
+
+
+@media screen and (max-width: 991px) {
+  .terms_body{
+    padding: 30px;
+  }
+  .terms_section > div{
+    padding: 30px;
+  }
+
+  .terms_title{
+    display: flex;
+    padding: 0 30px ;
+  }
+
+  .lng-terms-title,.lng-aml-title{
+  font-size: 30px;
+  }
+  .terms_title img {
+    width: 50px;
+  }
+
+  .terms_body p,.terms_body li{
+  font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .terms_body{
+    padding: 15px;
+  }
+  .terms_section > div{
+    padding: 15px;
+  }
+
+  .terms_title{
+    display: flex;
+    padding: 0 15px ;
+  }
+
+  .lng-terms-title,.lng-aml-title{
+  font-size: 20px;
+  }
+  .terms_title img {
+    width: 30px;
+  }
+
+}

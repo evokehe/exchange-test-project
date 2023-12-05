@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    background-color: #fafafa;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo img{
+    width: 50px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo p{
+    font-weight: bold;
+    margin:0;
+    margin-left: 10px;
+}
+
+.logo_text{
+    display: flex;
+    align-items: center;
+}
+
+.yellow{
+    color: #f5ba15;
+}
+
+.nav{
+    width: 80%;
+    margin: 0 auto;
+    padding:10px 0;
+}
+
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+    text-decoration: none;
+    transition:1.1s;
+  }
+  .s-item:hover{
+    background-color:#f5ba15;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  #logo {
+    transition: margin-left .5s;
+  }
+  
+  .siteSettings{
+    width: 50%;
+    margin:0 auto;
+  }
+
+
+.checks{
+    display:flex;
+    
+
+}
+
+.checks >div{
+    margin-right: 10px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+.form-group{
+    margin: 10px 0;
+}
+
+  .tbCountry{
+      display: flex;
+  }
+  .tbCountry img{
+      width: 40px;
+      margin-left: 10px;
+  }
+
+  @-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+

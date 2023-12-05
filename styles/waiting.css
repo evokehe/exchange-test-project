@@ -1,0 +1,57 @@
+.progress {
+  background: rgba(255,255,255,0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  height: 10px;
+  border: 1px solid #4ca2cd;
+}
+
+.progress-value {
+  animation: load 100s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #4ca2cd;
+  height: 9px;
+  width: 0;
+}
+
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+
+.waiting_section > div{
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px
+}
+
+.lng-waiting-id{
+  font-family: 'GilroyBold';
+font-style: normal;
+font-weight: bold;
+font-size: 23px;
+color: #545454;
+margin: 20px 0;
+}
+.lng-page-reloading{
+  font-family: 'GilroyMedium';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+margin: 10px 0;
+}
+
+
+.lng-waiting-text{
+  font-family: 'GilroyMedium';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+margin: 10px 0;
+color: #545454;
+}
